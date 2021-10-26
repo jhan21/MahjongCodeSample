@@ -14,13 +14,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Mahjong {
-	
-	//Public Variables to hold the tiles
 
     public List<String> tilePool;
     public List<String> discardPool;
-
-    //Constructor that starts the game
     
     public Mahjong() {
         makeTiles();

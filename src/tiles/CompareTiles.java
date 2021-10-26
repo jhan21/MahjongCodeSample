@@ -4,7 +4,6 @@
 * Specifically for Dragon tiles
 * Order is Red (R) Green (G) White (T)
 
-
 */
 
 package tiles;

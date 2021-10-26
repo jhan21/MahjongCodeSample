@@ -17,13 +17,12 @@ public class Player {
 	public String name;
 	public List<String> hand;
 	public int points;
-	static CompareTiles tileCompare = new CompareTiles(); 
-
-    // Constructor
+	static CompareTiles tileCompare = new CompareTiles();
+	public int startingPoints = 25000;
 
 	public Player() {
 		this.name = "Default";
-		this.points = 25000;
+		this.points = startingPoints;
 		this.hand = new ArrayList<String>();
 	}
 	
