@@ -26,7 +26,7 @@ public class Mahjong {
         startGame(p1);
     }
 
-    //Creates all 148 tiles needed for the game
+    //Creates all 136 tiles needed for the game
     
     public void makeTiles() {
         tilePool = new ArrayList<String>();

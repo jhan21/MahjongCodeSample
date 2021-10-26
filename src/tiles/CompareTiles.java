@@ -1,9 +1,7 @@
 /**
-
 * Implementation of Comparator to create a custom sort
 * Specifically for Dragon tiles
-* Order is Red (R) Green (G) White (T)
-
+* Order is Red (r) Green (g) White (t)
 */
 
 package tiles;
@@ -40,6 +38,7 @@ public class CompareTiles implements Comparator<String> {
 				marker = -1;
 			}
 		}
+		
 		else {
 			marker = Character.compare(tile1.charAt(1), tile2.charAt(1));
 			
@@ -47,6 +46,7 @@ public class CompareTiles implements Comparator<String> {
 				marker = Character.compare(tile1.charAt(0), tile2.charAt(0));
 				}
 			}
+		
 	return marker;
 	}
 }
